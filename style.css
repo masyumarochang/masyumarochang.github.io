@@ -44,3 +44,12 @@ select {
     color: #555;
     margin-top: 10px;
 }
+
+#grow{
+    cursor: pointer;
+    user-select: none;
+    border: 1px dashed #aaa;
+    display: inline-block;
+    padding: 8px;
+    background-color: #fff;
+}
