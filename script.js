@@ -48,5 +48,13 @@ const select = document.getElementById("useless");
 const reaction = document.getElementById("reaction");
 
 select.addEventListener("change",() => {
-    reaction.textContent = "いいですねぇ…、じゃない！！全部食満だ！！"
-})
+    reaction.textContent = "食満じゃん！！"
+});
+
+let count = 1;
+const grow = document.getElementById("grow");
+
+grow.addEventListener("click",() => {
+    count++;
+    grow.textContent = `タップすると増えます(${count})`;
+});
