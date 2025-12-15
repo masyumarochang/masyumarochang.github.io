@@ -43,3 +43,10 @@ text.addEventListener("mouseup", () => {
 text.addEventListener("mouseleave", () => {
   clearTimeout(pressTimer);
 });
+
+const select = document.getElementById("useless");
+const reaction = document.getElementById("reaction");
+
+select.addEventListener("change",() => {
+    reaction.textContent = "いいですねぇ…、じゃない！！全部食満だ！！"
+})
